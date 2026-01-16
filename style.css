@@ -1,0 +1,149 @@
+/* Tổng quan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Header Banner - Trang 1 */
+.blue-banner {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+}
+
+.blue-banner h1 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.navbar {
+    margin-top: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* Nội dung chính */
+.main-content {
+    padding: 20px;
+}
+
+.highlight-box {
+    border-left: 5px solid orange;
+    background-color: #fff9e6;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.image-section img {
+    border: 1px solid #ccc;
+    padding: 5px;
+    max-width: 200px;
+}
+
+/* Trang 2 */
+.grade-text {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.btn-submit {
+    background-color: #03A9F4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.red-text {
+    color: #e91e63;
+}
+
+/* Form */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.btn-send {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Bảng */
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.student-table th {
+    background-color: #1976D2;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+
+.student-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Màu điểm số */
+.grade-a { color: green; font-weight: bold; }
+.grade-b { color: #cc6600; font-weight: bold; }
+.grade-a-minus { color: #008080; font-weight: bold; }
+
+/* Footer */
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    color: #666;
+    font-size: 14px;
+}
